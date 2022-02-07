@@ -1,0 +1,91 @@
+ body{
+   
+  color:#fff;
+  font-size:16px;
+  font-family:'Oxygen', sans-serif;
+ }
+
+ #header-nav{
+  background-color: #808080;
+  border-radius: 0;
+  border: 0;
+ }
+ #logo-img{
+    font-size:15px;
+  font-weight:bold;
+  width:50px;
+  height:50px;
+  margin: 10px 15px 10px 0px;
+ }
+  .navbar-brand{
+  padding-top:25px;
+ }
+
+ .mavbar-brand h1{
+  font-family: 'lora', sans-serif;
+  color:#557c3e;
+  text-transform:uppercase;
+  font-weight:bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top:0;
+  margin-bottom:0;
+  line-height:.75;
+}
+.navbar-brand a:hover,  .navbar-brand a:focus {
+  text-decoration-style:none;
+}
+
+.navbar-toggle{
+  background-color:white;
+
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button .navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.icon-bar{
+  background-color:white;
+}
+#menu-categories-title  {
+    color: gray;
+  margin-bottom: 50px;}
+
+.category-tile {
+    color: black;
+    background-color: gray;
+
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+
+}
+
+.category-tile div {
+    color: black;
+    text-align: center;
+}
